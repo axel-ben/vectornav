@@ -1,0 +1,211 @@
+[0.175s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.175s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77448f76b790>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77448f76b340>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77448f76b340>>, mixin_verb=('build',))
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.400s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/axel/dynabot-ros/src/vectornav'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extensions ['ros']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extension 'ros'
+[0.416s] DEBUG:colcon.colcon_core.package_identification:Package 'vectornav' with type 'ros.ament_cmake' and name 'vectornav'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav_msgs) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav_msgs) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav_msgs) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav_msgs) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav_msgs) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav_msgs) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav_msgs) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav_msgs) by extension 'ros'
+[0.418s] DEBUG:colcon.colcon_core.package_identification:Package 'vectornav_msgs' with type 'ros.ament_cmake' and name 'vectornav_msgs'
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.456s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/axel/dynabot-ros/install
+[0.458s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/humble
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_target' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.515s] DEBUG:colcon.colcon_core.verb:Building package 'vectornav_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/axel/dynabot-ros/src/vectornav/build/vectornav_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs', 'merge_install': False, 'path': '/home/axel/dynabot-ros/src/vectornav/vectornav_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_target' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_clean_first' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_force_configure' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'ament_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.516s] DEBUG:colcon.colcon_core.verb:Building package 'vectornav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/axel/dynabot-ros/src/vectornav/build/vectornav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/axel/dynabot-ros/src/vectornav/install/vectornav', 'merge_install': False, 'path': '/home/axel/dynabot-ros/src/vectornav/vectornav', 'symlink_install': False, 'test_result_base': None}
+[0.516s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.517s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.518s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/axel/dynabot-ros/src/vectornav/vectornav_msgs' with build type 'ament_cmake'
+[0.518s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/axel/dynabot-ros/src/vectornav/vectornav_msgs'
+[0.520s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/axel/dynabot-ros/src/vectornav/build/vectornav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/axel/dynabot-ros/install/motor_test:/home/axel/dynabot-ros/install/motor_control:/home/axel/dynabot-ros/install/lane_detection:/home/axel/dynabot-ros/install/joystick_control:/home/axel/dynabot-ros/install/dynabot_lidar:/home/axel/dynabot-ros/install/dynabot_imu:/home/axel/dynabot-ros/install/dynabot_encoders:/home/axel/dynabot-ros/install/dynabot_cv:/home/axel/dynabot-ros/install/dynabot_camera:/opt/ros/humble /usr/bin/cmake /home/axel/dynabot-ros/src/vectornav/vectornav_msgs -DCMAKE_INSTALL_PREFIX=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs
+[3.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/axel/dynabot-ros/src/vectornav/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/axel/dynabot-ros/install/motor_test:/home/axel/dynabot-ros/install/motor_control:/home/axel/dynabot-ros/install/lane_detection:/home/axel/dynabot-ros/install/joystick_control:/home/axel/dynabot-ros/install/dynabot_lidar:/home/axel/dynabot-ros/install/dynabot_imu:/home/axel/dynabot-ros/install/dynabot_encoders:/home/axel/dynabot-ros/install/dynabot_cv:/home/axel/dynabot-ros/install/dynabot_camera:/opt/ros/humble /usr/bin/cmake /home/axel/dynabot-ros/src/vectornav/vectornav_msgs -DCMAKE_INSTALL_PREFIX=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs
+[3.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/axel/dynabot-ros/src/vectornav/build/vectornav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/axel/dynabot-ros/install/motor_test:/home/axel/dynabot-ros/install/motor_control:/home/axel/dynabot-ros/install/lane_detection:/home/axel/dynabot-ros/install/joystick_control:/home/axel/dynabot-ros/install/dynabot_lidar:/home/axel/dynabot-ros/install/dynabot_imu:/home/axel/dynabot-ros/install/dynabot_encoders:/home/axel/dynabot-ros/install/dynabot_cv:/home/axel/dynabot-ros/install/dynabot_camera:/opt/ros/humble /usr/bin/cmake --build /home/axel/dynabot-ros/src/vectornav/build/vectornav_msgs -- -j8 -l8
+[18.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/axel/dynabot-ros/src/vectornav/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/axel/dynabot-ros/install/motor_test:/home/axel/dynabot-ros/install/motor_control:/home/axel/dynabot-ros/install/lane_detection:/home/axel/dynabot-ros/install/joystick_control:/home/axel/dynabot-ros/install/dynabot_lidar:/home/axel/dynabot-ros/install/dynabot_imu:/home/axel/dynabot-ros/install/dynabot_encoders:/home/axel/dynabot-ros/install/dynabot_cv:/home/axel/dynabot-ros/install/dynabot_camera:/opt/ros/humble /usr/bin/cmake --build /home/axel/dynabot-ros/src/vectornav/build/vectornav_msgs -- -j8 -l8
+[18.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/axel/dynabot-ros/src/vectornav/build/vectornav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/axel/dynabot-ros/install/motor_test:/home/axel/dynabot-ros/install/motor_control:/home/axel/dynabot-ros/install/lane_detection:/home/axel/dynabot-ros/install/joystick_control:/home/axel/dynabot-ros/install/dynabot_lidar:/home/axel/dynabot-ros/install/dynabot_imu:/home/axel/dynabot-ros/install/dynabot_encoders:/home/axel/dynabot-ros/install/dynabot_cv:/home/axel/dynabot-ros/install/dynabot_camera:/opt/ros/humble /usr/bin/cmake --install /home/axel/dynabot-ros/src/vectornav/build/vectornav_msgs
+[19.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vectornav_msgs)
+[19.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/axel/dynabot-ros/src/vectornav/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/axel/dynabot-ros/install/motor_test:/home/axel/dynabot-ros/install/motor_control:/home/axel/dynabot-ros/install/lane_detection:/home/axel/dynabot-ros/install/joystick_control:/home/axel/dynabot-ros/install/dynabot_lidar:/home/axel/dynabot-ros/install/dynabot_imu:/home/axel/dynabot-ros/install/dynabot_encoders:/home/axel/dynabot-ros/install/dynabot_cv:/home/axel/dynabot-ros/install/dynabot_camera:/opt/ros/humble /usr/bin/cmake --install /home/axel/dynabot-ros/src/vectornav/build/vectornav_msgs
+[19.134s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs' for CMake module files
+[19.134s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs' for CMake config files
+[19.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'cmake_prefix_path')
+[19.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.ps1'
+[19.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.dsv'
+[19.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.sh'
+[19.137s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/lib'
+[19.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'ld_library_path_lib')
+[19.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.ps1'
+[19.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.dsv'
+[19.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.sh'
+[19.139s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/bin'
+[19.139s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/lib/pkgconfig/vectornav_msgs.pc'
+[19.139s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/lib/python3.10/site-packages'
+[19.139s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/bin'
+[19.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/package.ps1'
+[19.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/package.dsv'
+[19.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/package.sh'
+[19.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/package.bash'
+[19.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/package.zsh'
+[19.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/colcon-core/packages/vectornav_msgs)
+[19.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vectornav_msgs)
+[19.144s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs' for CMake module files
+[19.145s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs' for CMake config files
+[19.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'cmake_prefix_path')
+[19.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.ps1'
+[19.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.dsv'
+[19.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.sh'
+[19.148s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/lib'
+[19.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'ld_library_path_lib')
+[19.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.ps1'
+[19.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.dsv'
+[19.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.sh'
+[19.149s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/bin'
+[19.149s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/lib/pkgconfig/vectornav_msgs.pc'
+[19.150s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/lib/python3.10/site-packages'
+[19.150s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/bin'
+[19.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/package.ps1'
+[19.151s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/package.dsv'
+[19.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/package.sh'
+[19.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/package.bash'
+[19.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/vectornav_msgs/package.zsh'
+[19.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/share/colcon-core/packages/vectornav_msgs)
+[19.153s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/axel/dynabot-ros/src/vectornav/vectornav' with build type 'ament_cmake'
+[19.153s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/axel/dynabot-ros/src/vectornav/vectornav'
+[19.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/axel/dynabot-ros/src/vectornav/build/vectornav': AMENT_PREFIX_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs:/home/axel/dynabot-ros/install/vectornav:/home/axel/dynabot-ros/install/vectornav_msgs:/home/axel/dynabot-ros/install/dynabot_description:/home/axel/dynabot-ros/install/dynabot_bringup:/home/axel/dynabot-ros/install/motor_test:/home/axel/dynabot-ros/install/motor_control:/home/axel/dynabot-ros/install/lane_detection:/home/axel/dynabot-ros/install/joystick_control:/home/axel/dynabot-ros/install/dynabot_lidar:/home/axel/dynabot-ros/install/dynabot_imu:/home/axel/dynabot-ros/install/dynabot_encoders:/home/axel/dynabot-ros/install/dynabot_cv:/home/axel/dynabot-ros/install/dynabot_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/axel/dynabot-ros/src/vectornav/vectornav -DCMAKE_INSTALL_PREFIX=/home/axel/dynabot-ros/src/vectornav/install/vectornav
+[21.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/axel/dynabot-ros/src/vectornav/build/vectornav' returned '0': AMENT_PREFIX_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs:/home/axel/dynabot-ros/install/vectornav:/home/axel/dynabot-ros/install/vectornav_msgs:/home/axel/dynabot-ros/install/dynabot_description:/home/axel/dynabot-ros/install/dynabot_bringup:/home/axel/dynabot-ros/install/motor_test:/home/axel/dynabot-ros/install/motor_control:/home/axel/dynabot-ros/install/lane_detection:/home/axel/dynabot-ros/install/joystick_control:/home/axel/dynabot-ros/install/dynabot_lidar:/home/axel/dynabot-ros/install/dynabot_imu:/home/axel/dynabot-ros/install/dynabot_encoders:/home/axel/dynabot-ros/install/dynabot_cv:/home/axel/dynabot-ros/install/dynabot_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/axel/dynabot-ros/src/vectornav/vectornav -DCMAKE_INSTALL_PREFIX=/home/axel/dynabot-ros/src/vectornav/install/vectornav
+[21.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/axel/dynabot-ros/src/vectornav/build/vectornav': AMENT_PREFIX_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs:/home/axel/dynabot-ros/install/vectornav:/home/axel/dynabot-ros/install/vectornav_msgs:/home/axel/dynabot-ros/install/dynabot_description:/home/axel/dynabot-ros/install/dynabot_bringup:/home/axel/dynabot-ros/install/motor_test:/home/axel/dynabot-ros/install/motor_control:/home/axel/dynabot-ros/install/lane_detection:/home/axel/dynabot-ros/install/joystick_control:/home/axel/dynabot-ros/install/dynabot_lidar:/home/axel/dynabot-ros/install/dynabot_imu:/home/axel/dynabot-ros/install/dynabot_encoders:/home/axel/dynabot-ros/install/dynabot_cv:/home/axel/dynabot-ros/install/dynabot_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/axel/dynabot-ros/src/vectornav/build/vectornav -- -j8 -l8
+[62.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/axel/dynabot-ros/src/vectornav/build/vectornav' returned '0': AMENT_PREFIX_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs:/home/axel/dynabot-ros/install/vectornav:/home/axel/dynabot-ros/install/vectornav_msgs:/home/axel/dynabot-ros/install/dynabot_description:/home/axel/dynabot-ros/install/dynabot_bringup:/home/axel/dynabot-ros/install/motor_test:/home/axel/dynabot-ros/install/motor_control:/home/axel/dynabot-ros/install/lane_detection:/home/axel/dynabot-ros/install/joystick_control:/home/axel/dynabot-ros/install/dynabot_lidar:/home/axel/dynabot-ros/install/dynabot_imu:/home/axel/dynabot-ros/install/dynabot_encoders:/home/axel/dynabot-ros/install/dynabot_cv:/home/axel/dynabot-ros/install/dynabot_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/axel/dynabot-ros/src/vectornav/build/vectornav -- -j8 -l8
+[62.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/axel/dynabot-ros/src/vectornav/build/vectornav': AMENT_PREFIX_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs:/home/axel/dynabot-ros/install/vectornav:/home/axel/dynabot-ros/install/vectornav_msgs:/home/axel/dynabot-ros/install/dynabot_description:/home/axel/dynabot-ros/install/dynabot_bringup:/home/axel/dynabot-ros/install/motor_test:/home/axel/dynabot-ros/install/motor_control:/home/axel/dynabot-ros/install/lane_detection:/home/axel/dynabot-ros/install/joystick_control:/home/axel/dynabot-ros/install/dynabot_lidar:/home/axel/dynabot-ros/install/dynabot_imu:/home/axel/dynabot-ros/install/dynabot_encoders:/home/axel/dynabot-ros/install/dynabot_cv:/home/axel/dynabot-ros/install/dynabot_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/axel/dynabot-ros/src/vectornav/build/vectornav
+[62.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vectornav)
+[62.648s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav' for CMake module files
+[62.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/axel/dynabot-ros/src/vectornav/build/vectornav' returned '0': AMENT_PREFIX_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs:/home/axel/dynabot-ros/install/vectornav:/home/axel/dynabot-ros/install/vectornav_msgs:/home/axel/dynabot-ros/install/dynabot_description:/home/axel/dynabot-ros/install/dynabot_bringup:/home/axel/dynabot-ros/install/motor_test:/home/axel/dynabot-ros/install/motor_control:/home/axel/dynabot-ros/install/lane_detection:/home/axel/dynabot-ros/install/joystick_control:/home/axel/dynabot-ros/install/dynabot_lidar:/home/axel/dynabot-ros/install/dynabot_imu:/home/axel/dynabot-ros/install/dynabot_encoders:/home/axel/dynabot-ros/install/dynabot_cv:/home/axel/dynabot-ros/install/dynabot_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/axel/dynabot-ros/src/vectornav/install/vectornav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/axel/dynabot-ros/src/vectornav/build/vectornav
+[62.649s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav' for CMake config files
+[62.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav', 'cmake_prefix_path')
+[62.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/hook/cmake_prefix_path.ps1'
+[62.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/hook/cmake_prefix_path.dsv'
+[62.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/hook/cmake_prefix_path.sh'
+[62.651s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav/lib'
+[62.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav', 'ld_library_path_lib')
+[62.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/hook/ld_library_path_lib.ps1'
+[62.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/hook/ld_library_path_lib.dsv'
+[62.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/hook/ld_library_path_lib.sh'
+[62.652s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav/bin'
+[62.652s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav/lib/pkgconfig/vectornav.pc'
+[62.653s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav/lib/python3.10/site-packages'
+[62.653s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav/bin'
+[62.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/package.ps1'
+[62.654s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/package.dsv'
+[62.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/package.sh'
+[62.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/package.bash'
+[62.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/package.zsh'
+[62.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/colcon-core/packages/vectornav)
+[62.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vectornav)
+[62.656s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav' for CMake module files
+[62.657s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav' for CMake config files
+[62.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav', 'cmake_prefix_path')
+[62.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/hook/cmake_prefix_path.ps1'
+[62.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/hook/cmake_prefix_path.dsv'
+[62.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/hook/cmake_prefix_path.sh'
+[62.659s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav/lib'
+[62.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav', 'ld_library_path_lib')
+[62.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/hook/ld_library_path_lib.ps1'
+[62.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/hook/ld_library_path_lib.dsv'
+[62.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/hook/ld_library_path_lib.sh'
+[62.661s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav/bin'
+[62.661s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav/lib/pkgconfig/vectornav.pc'
+[62.661s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav/lib/python3.10/site-packages'
+[62.661s] Level 1:colcon.colcon_core.environment:checking '/home/axel/dynabot-ros/src/vectornav/install/vectornav/bin'
+[62.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/package.ps1'
+[62.662s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/package.dsv'
+[62.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/package.sh'
+[62.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/package.bash'
+[62.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/vectornav/package.zsh'
+[62.664s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/axel/dynabot-ros/src/vectornav/install/vectornav/share/colcon-core/packages/vectornav)
+[62.664s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[62.665s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[62.665s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[62.665s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[62.671s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[62.671s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[62.672s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[62.688s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[62.688s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/axel/dynabot-ros/src/vectornav/install/local_setup.ps1'
+[62.689s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/axel/dynabot-ros/src/vectornav/install/_local_setup_util_ps1.py'
+[62.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/axel/dynabot-ros/src/vectornav/install/setup.ps1'
+[62.693s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/axel/dynabot-ros/src/vectornav/install/local_setup.sh'
+[62.694s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/axel/dynabot-ros/src/vectornav/install/_local_setup_util_sh.py'
+[62.694s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/axel/dynabot-ros/src/vectornav/install/setup.sh'
+[62.696s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/axel/dynabot-ros/src/vectornav/install/local_setup.bash'
+[62.697s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/axel/dynabot-ros/src/vectornav/install/setup.bash'
+[62.699s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/axel/dynabot-ros/src/vectornav/install/local_setup.zsh'
+[62.700s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/axel/dynabot-ros/src/vectornav/install/setup.zsh'

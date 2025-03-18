@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "vectornav_msgs__py",
+		"source" : "/home/axel/dynabot-ros/src/vectornav/build/vectornav_msgs/vectornav_msgs__py"
+	}
+}

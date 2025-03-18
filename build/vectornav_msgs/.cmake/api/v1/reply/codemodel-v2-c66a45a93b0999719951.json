@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4b9473d8d5a100c0636a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "vectornav_msgs__py",
+					"jsonFile" : "directory-vectornav_msgs__py-4484b9fda084f3362dce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/axel/dynabot-ros/src/vectornav/build/vectornav_msgs/vectornav_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "vectornav_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_vectornav_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_vectornav_msgs_egg-1f8879f4b48eab3c4568.json",
+					"name" : "ament_cmake_python_build_vectornav_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_vectornav_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_vectornav_msgs-bb2d3507b68e026a6b0f.json",
+					"name" : "ament_cmake_python_copy_vectornav_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d4e5fd2ed18f5388747d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs-f6bb986297927ef01976.json",
+					"name" : "vectornav_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__cpp-9a4522bbdd23e66ace3a.json",
+					"name" : "vectornav_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vectornav_msgs__py::@aa3eee8324d2c30f3b1d",
+					"jsonFile" : "target-vectornav_msgs__py-3a9a3011f79ede1bc2c2.json",
+					"name" : "vectornav_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_generator_c-2264bdbd15920d711102.json",
+					"name" : "vectornav_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_generator_py-eec9bb0b3ac2f65fa564.json",
+					"name" : "vectornav_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_c-618764374657cecdcb13.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_c__pyext-3547ec249e3555e49d95.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_cpp-70885594365363e3a52b.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_fastrtps_c-7ab298d01364841572a9.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext-dfe167234b63ff6bc98e.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_fastrtps_cpp-30478d8d956585d19cac.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_introspection_c-1ca5167d8cabc4ae9836.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_introspection_c__pyext-525f43cad625287d0a35.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_introspection_cpp-7785be0d0a3006b4da90.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs_uninstall-d48b69f4c97a63d8c6d4.json",
+					"name" : "vectornav_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/axel/dynabot-ros/src/vectornav/build/vectornav_msgs",
+		"source" : "/home/axel/dynabot-ros/src/vectornav/vectornav_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
